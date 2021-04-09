@@ -1,0 +1,16 @@
+[package]
+name = "radix-convert-wasm"
+version = "0.1.0"
+authors = ["neilgardner1963@gmail.com <neilgardner1963@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cpc = "1.4.0"
+decimal = "2.1.0"
+num = "*"
+wasm-bindgen = "*"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
